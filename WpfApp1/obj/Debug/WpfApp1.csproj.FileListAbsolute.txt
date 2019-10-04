@@ -1,0 +1,14 @@
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe.config
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\bin\Debug\WpfApp1.exe
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\bin\Debug\WpfApp1.pdb
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\MainWindow.g.cs
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\App.g.cs
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.cache
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\WpfApp1_MarkupCompile.lref
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\MainWindow.baml
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\WpfApp1.g.resources
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\WpfApp1.Properties.Resources.resources
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\WpfApp1.csproj.GenerateResource.cache
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
+D:\WorkProjects\WPF_FLat_Design\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb

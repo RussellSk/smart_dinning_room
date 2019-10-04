@@ -1,0 +1,59 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:Properties="clr-namespace:WpfApp1.Properties" x:Name="window" x:Class="WpfApp1.MainWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="469.922" Width="720.313"
+        WindowState="Maximized" WindowStyle="None">
+    <Window.Resources>
+        <Style x:Key="myButtonStyle" TargetType="{x:Type Button}">
+            <Setter Property="Height" Value="30" />
+            <Setter Property="Width" Value="80" />
+            <Setter Property="Foreground" Value="Blue" />
+            <Setter Property="Background" Value="#fff" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="FontSize" Value="12" />
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="Black" Direction="320" ShadowDepth="3" BlurRadius="5" Opacity="0.5" />
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Foreground" Value="Green" />
+                    <Setter Property="FontSize" Value="15" />
+                    <Setter Property="Background" Value="Crimson" />
+                </Trigger>
+
+            </Style.Triggers>
+        </Style>
+
+    </Window.Resources>
+
+    <Grid Margin="-2,0,1.6,0.2">
+
+        <DockPanel x:Name="dockPanel" HorizontalAlignment="Left" LastChildFill="False" Width="243"  Background="#FFF50057" VerticalAlignment="Top" Height="{Binding ActualHeight, ElementName=window, Mode=OneWay}">
+            <DockPanel.BitmapEffect>
+                <DropShadowBitmapEffect Color="Black" Direction="100" ShadowDepth="2" Opacity="0.7" Softness="10" />
+            </DockPanel.BitmapEffect>
+            <TextBlock Height="44" TextWrapping="Wrap" Text="Меню" VerticalAlignment="Top" FontSize="34" FontWeight="Bold" DockPanel.Dock="Top" UseLayoutRounding="False" Foreground="#FFFCE4EC" TextAlignment="Center" Margin="0,80,0,0" RenderTransformOrigin="0.497,1.25"  />
+        </DockPanel>
+
+        <DockPanel Height="68" LastChildFill="False" VerticalAlignment="Top" Background="#FFF50057">
+            <DockPanel.BitmapEffect>
+                <DropShadowBitmapEffect Color="Black" Direction="5" ShadowDepth="2" Opacity="0.7" Softness="10" />
+            </DockPanel.BitmapEffect>
+            <Image Height="68" VerticalAlignment="Top" Width="67" Source="pack://siteoforigin:,,,/Resources/logo.png" RenderTransformOrigin="1.25,0.512"/>
+        </DockPanel>
+
+        <Button Style="{StaticResource myButtonStyle}" Content="Exit" Margin="609,385,24.6,25" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="Button_Click"/>
+        <Rectangle Fill="#FFD81B60" HorizontalAlignment="Right" Height="49" Margin="0,7,61,0" Stroke="#FFF9F9F9" VerticalAlignment="Top" Width="161" RadiusX="5" RadiusY="7"/>
+        <TextBlock HorizontalAlignment="Right" Margin="0,15,80,0" TextWrapping="Wrap" Text="Корзина" VerticalAlignment="Top" Foreground="White" FontSize="24"/>
+        <Image HorizontalAlignment="Left" Height="25" Margin="502,20,0,0" VerticalAlignment="Top" Width="31" OverridesDefaultStyle="True"/>
+    </Grid>
+
+
+</Window>
