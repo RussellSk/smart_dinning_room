@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\App.xaml
-2-2032235523
+3-1442173337
 
-111641145803
+13594472079
 15414303476
-Dialogs\OrdersDialog.xaml;MainWindow.xaml;
+Dialogs\OrdersDialog.xaml;Dialogs\VerificationDialog.xaml;MainWindow.xaml;
 
 False
 

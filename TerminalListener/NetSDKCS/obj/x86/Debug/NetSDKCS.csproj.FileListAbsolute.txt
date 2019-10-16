@@ -1,0 +1,10 @@
+D:\works\C#demo\FaceAttendance\NetSDKCS\bin\Debug\NetSDKCS.dll
+D:\works\C#demo\FaceAttendance\NetSDKCS\bin\Debug\NetSDKCS.pdb
+D:\works\C#demo\FaceAttendance\NetSDKCS\obj\x86\Debug\NetSDKCS.csproj.CoreCompileInputs.cache
+D:\works\C#demo\FaceAttendance\NetSDKCS\obj\x86\Debug\NetSDKCS.dll
+D:\works\C#demo\FaceAttendance\NetSDKCS\obj\x86\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\Terminal\NetSDKCS\bin\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\Terminal\NetSDKCS\bin\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\Terminal\NetSDKCS\obj\x86\Debug\NetSDKCS.csprojResolveAssemblyReference.cache
+D:\Dev projects\CSh\Terminal\NetSDKCS\obj\x86\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\Terminal\NetSDKCS\obj\x86\Debug\NetSDKCS.pdb

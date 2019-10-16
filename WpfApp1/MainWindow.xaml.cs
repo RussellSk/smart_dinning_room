@@ -52,7 +52,7 @@ namespace WpfApp1
             try
             {
                 string categoryId = (sender as Button).Tag.ToString();
-                this.foodMenu =  await Task.Run(() => api.getMenuItemsByCategory(categoryId));
+                this.foodMenu = await Task.Run(() => api.getMenuItemsByCategory(categoryId));
                 icMainItemsMenu.ItemsSource = this.foodMenu;
             } catch (Exception ex)
             {

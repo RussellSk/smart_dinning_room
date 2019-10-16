@@ -64,6 +64,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Dialogs\VerificationDialog.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -76,6 +80,9 @@
     <Compile Include="CustomPrinter.cs" />
     <Compile Include="Dialogs\OrdersDialog.xaml.cs">
       <DependentUpon>OrdersDialog.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\VerificationDialog.xaml.cs">
+      <DependentUpon>VerificationDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="Entities\LeftMenuItem.cs" />
     <Compile Include="Entities\MenuItems.cs" />
@@ -117,6 +124,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Resources\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\verification.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

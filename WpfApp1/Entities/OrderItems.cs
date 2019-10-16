@@ -85,6 +85,15 @@ namespace WpfApp1.Entities
             }  
         }
 
+        public void Clear()
+        {
+            this.orders.Clear();
+            this.order_amount = 0;
+            this.NotifyPropertyChanged("OrderAmount");
+            this.NotifyPropertyChanged("OrderSum");
+            this.NotifyPropertyChanged("Orders");
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
 
         public void NotifyPropertyChanged(string propName)

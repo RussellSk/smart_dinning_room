@@ -1,0 +1,15 @@
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\TerminalListener.exe.config
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\TerminalListener.exe
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\TerminalListener.pdb
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\Google.Protobuf.dll
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\MySql.Data.dll
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\RestSharp.dll
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\Google.Protobuf.xml
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\MySql.Data.xml
+D:\Dev projects\CSh\TerminalListener\TerminalListener\bin\x64\Debug\RestSharp.xml
+D:\Dev projects\CSh\TerminalListener\TerminalListener\obj\x64\Debug\TerminalListener.exe
+D:\Dev projects\CSh\TerminalListener\TerminalListener\obj\x64\Debug\TerminalListener.pdb
+D:\Dev projects\CSh\TerminalListener\TerminalListener\obj\x64\Debug\TerminalListener.csprojAssemblyReference.cache
+D:\Dev projects\CSh\TerminalListener\TerminalListener\obj\x64\Debug\TerminalListener.csproj.CopyComplete

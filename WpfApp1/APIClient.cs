@@ -18,6 +18,7 @@ namespace WpfApp1
             client.BaseAddress = new Uri("http://shop.podrom.com/");
             client.DefaultRequestHeaders.Accept.Clear();
             client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+            client.Timeout = TimeSpan.FromSeconds(5);
         }
 
         public async Task<String> GET(String url)
@@ -50,7 +51,7 @@ namespace WpfApp1
                     LeftMenuItem leftMenuItem = result.ToObject<LeftMenuItem>();
                     items.Add(leftMenuItem);
                 }
-            } catch (Exception ex)
+            } catch (Exception)
             {
                 return items;
             }
@@ -77,7 +78,7 @@ namespace WpfApp1
 
                 return menuItems;
 
-            } catch (Exception ex)
+            } catch (Exception)
             {
                 return menuItems;
             }
@@ -103,7 +104,7 @@ namespace WpfApp1
                 return menuItems;
 
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return menuItems;
             }

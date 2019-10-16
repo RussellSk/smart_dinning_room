@@ -13,8 +13,8 @@ namespace WpfApp1
         private readonly PrinterSettings ps = new PrinterSettings();
         private PrintDocument printDoc = new PrintDocument();
         private PrintController printController = new StandardPrintController();
-        private List<String> PrintingLines = new List<string>();
-        private const int PAPER_WIDTH = 23;
+        private PrintingLine printingLines = new PrintingLine();
+        private const int PAPER_WIDTH = 27;
 
         public CustomPrinter()
         {
@@ -22,43 +22,48 @@ namespace WpfApp1
             printDoc.PrinterSettings = ps;
         }
 
-        public void AddLine(String Line)
+        public void AddLine(String Line, Font font)
         {
-            PrintingLines.Add(Line);
-            PrintingLines.Add(" ");
+            printingLines.AddLine(Line, font);
         }
 
         public void AddBlankLine()
         {
-            PrintingLines.Add(" ");
+            printingLines.AddLine(" ", new Font("Courier New", 5, FontStyle.Bold));
         }
 
-        public void AddCenteredLine(string line)
+        public void AddCenteredLine(string line, Font font)
         {
             int num = PAPER_WIDTH - line.Length;
             if ((num % 2) != 0) num--;
             num /= 2;
-            String spaces = new string(' ', num);
+            String spaces = new String(' ', num);
             String centeredLine = spaces + line + spaces;
-            PrintingLines.Add(centeredLine);
-            PrintingLines.Add(" ");
+            printingLines.AddLine(centeredLine, font);
         }
 
-        public void AddSeparateLine(String str1, String str2)
+        public void AddSeparateLine(String str1, String str2, Font font)
         {
             try
             {
-                int num = ((PAPER_WIDTH - str1.Length) - str2.Length) - 2;
-                String spaces = new string(' ', num);
+                int num = ((PAPER_WIDTH - str1.Length) - str2.Length);
+                String spaces = new String(' ', num);
                 String separatedLine = str1 + spaces + str2;
-                PrintingLines.Add(separatedLine);
+                printingLines.AddLine(separatedLine, font);
             }
             catch (Exception)
             {
-                PrintingLines.Add(str1 + " " + str2);
+                printingLines.AddLine(str1 + " " + str2, font);
             }
 
-            PrintingLines.Add(" ");
+        }
+
+        public void AddLineEnd(String str, Font font)
+        {
+            int num = PAPER_WIDTH - str.Length;
+            String spaces = new String(' ', num);
+            String endLine = spaces + str;
+            printingLines.AddLine(endLine, font);
         }
 
         public void Print()
@@ -67,19 +72,15 @@ namespace WpfApp1
             printDoc.PrintPage += delegate (object sender1, PrintPageEventArgs e1)
             {
                 float yPos = 0;
-                int count = 0;
-                Font printFont = new Font("Courier New", 12, FontStyle.Bold);
-
-                foreach (String str in PrintingLines)
+                for (int i = 0; i < printingLines.Length(); i++)
                 {
-                    yPos = 20 + (count * printFont.GetHeight(e1.Graphics));
-                    e1.Graphics.DrawString(str, printFont, new SolidBrush(Color.Black), new RectangleF(0, yPos, printDoc.DefaultPageSettings.PrintableArea.Width, printDoc.DefaultPageSettings.PrintableArea.Width));
-                    count++;
+                    yPos = 20 + (i * printingLines.FontAt(i).GetHeight(e1.Graphics));
+                    e1.Graphics.DrawString(printingLines.LineAt(i), printingLines.FontAt(i), new SolidBrush(Color.Black), new RectangleF(0, yPos, printDoc.DefaultPageSettings.PrintableArea.Width, printDoc.DefaultPageSettings.PrintableArea.Width));
                 }
 
             };
 
-            printDoc.DefaultPageSettings.PaperSize = new PaperSize("Custom", 315, 300);
+            //printDoc.DefaultPageSettings.PaperSize = new PaperSize("Custom", 315, printingLines.Length() * 10);
             try
             {
                 printDoc.Print();
@@ -88,6 +89,33 @@ namespace WpfApp1
             {
                 Console.WriteLine("CustomPrinter Error: " + ex.Message);
             }
+        }
+    }
+
+    public class PrintingLine
+    {
+        private List<String> printing_lines = new List<string>();
+        private List<Font> line_font = new List<Font>();
+
+        public String LineAt(int index)
+        {
+            return printing_lines[index];
+        }
+
+        public Font FontAt(int index)
+        {
+            return line_font[index];
+        }
+
+        public void AddLine(String str, Font font) 
+        {
+            printing_lines.Add(str);
+            line_font.Add(font);
+        }
+
+        public int Length()
+        {
+            return printing_lines.Count();
         }
     }
 }

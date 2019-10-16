@@ -1,0 +1,63 @@
+﻿<Window x:Class="WpfApp1.Dialogs.VerificationDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1.Dialogs"
+        mc:Ignorable="d"
+        Title="VerificationDialog" Height="530" Width="500" Loaded="Window_Loaded"
+        WindowStyle="None" WindowStartupLocation="CenterOwner" BorderThickness="10" BorderBrush="#eee" ResizeMode="NoResize">
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style x:Key="CloseButton" TargetType="{x:Type Button}">
+                <Setter Property="Width" Value="100" />
+                <Setter Property="Height" Value="30" />
+                <Setter Property="FontWeight" Value="SemiBold" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="Background" Value="#f99626" />
+                <Setter Property="Foreground" Value="#fff" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="Effect">
+                    <Setter.Value>
+                        <DropShadowEffect Color="Black" Direction="250" ShadowDepth="3" BlurRadius="7" Opacity="0.1" />
+                    </Setter.Value>
+                </Setter>
+                <Style.Resources >
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5" />
+                    </Style>
+                </Style.Resources>
+            </Style>
+            
+            <Style x:Key="infoTextElement" TargetType="{x:Type TextBlock}">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="HorizontalAlignment" Value="Center" />
+                <Setter Property="FontWeight" Value="SemiBold" />
+            </Style>
+            
+            <Style x:Key="printChequeButton" TargetType="{x:Type Button}">
+                <Setter Property="Height" Value="45" />
+                <Setter Property="Margin" Value="0, 3, 0, 0" />
+                <Setter Property="Background" Value="#50c37f" />
+                <Setter Property="Foreground" Value="#fff" />
+                <Setter Property="FontSize" Value="23" />
+                <Setter Property="FontWeight" Value="SemiBold" />
+                <Setter Property="VerticalAlignment" Value="Bottom" />
+            </Style>
+        </ResourceDictionary>
+    </Window.Resources>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Margin="15">
+            <Border BorderThickness="0,0,0,1" BorderBrush="#aaa">
+                <DockPanel Height="30" Margin="10, 15">
+                    <TextBlock DockPanel.Dock="Left" Text="Авторизация" FontSize="23" FontWeight="SemiBold" />
+                    <Button DockPanel.Dock="Right" Style="{StaticResource CloseButton}" Content="Закрыть X" HorizontalAlignment="Right" Click="Button_Click"/>
+                </DockPanel>
+            </Border>
+            <Image Width="200" Height="200" Source="Resources/verification.png" Margin="0, 20"/>
+            <TextBlock Style="{StaticResource infoTextElement}" Text="Запрос передан на обработку..." />
+            <TextBlock Style="{StaticResource infoTextElement}" Text="Пожалуйста авторизуйтесь" />
+        </StackPanel>
+        <Button DockPanel.Dock="Bottom" Style="{StaticResource printChequeButton}" Content="РАСПЕЧАТАТЬ ЧЕК" Click="Button_Click_1"/>
+    </DockPanel>
+</Window>

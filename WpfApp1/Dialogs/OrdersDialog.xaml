@@ -115,7 +115,7 @@
                     <TextBlock DockPanel.Dock="Right" x:Name="OrderSumElement" Text="{Binding OrderSum, StringFormat=' {0} тг.'}" FontSize="23" FontWeight="SemiBold" HorizontalAlignment="Right" />
                 </DockPanel>
             </Border>
-            <Button Style="{StaticResource ProceedOrderButton}" Content="Подтвердить ваш заказ >"  Typography.Capitals="AllSmallCaps" />
+            <Button Style="{StaticResource ProceedOrderButton}" Content="Подтвердить ваш заказ >"  Typography.Capitals="AllSmallCaps" Click="Button_Click_2"/>
         </StackPanel>
     </StackPanel>
 </Window>

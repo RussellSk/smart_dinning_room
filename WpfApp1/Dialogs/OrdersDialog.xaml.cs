@@ -47,5 +47,13 @@ namespace WpfApp1.Dialogs
             }
             this.dialogOrder.Remove(this.dialogOrder.Orders.IndexOf(searchItem));
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            VerificationDialog verificationDialog = new VerificationDialog(ref this.dialogOrder);
+            verificationDialog.Owner = this.Owner;
+            verificationDialog.ShowDialog();
+            this.DialogResult = true;
+        }
     }
 }

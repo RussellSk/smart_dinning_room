@@ -32,3 +32,5 @@ D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Debug\WpfApp1.pdb
 D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Debug\WpfApp1.csprojAssemblyReference.cache
 D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Debug\Dialogs\OrdersDialog.g.cs
 D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Debug\Dialogs\OrdersDialog.baml
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Debug\Dialogs\VerificationDialog.g.cs
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Debug\Dialogs\VerificationDialog.baml
