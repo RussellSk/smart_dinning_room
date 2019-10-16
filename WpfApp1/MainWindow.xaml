@@ -4,56 +4,167 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
+        xmlns:con="clr-namespace:WpfApp1.Converter"
         xmlns:Properties="clr-namespace:WpfApp1.Properties" x:Name="window" x:Class="WpfApp1.MainWindow"
         mc:Ignorable="d"
         Title="MainWindow" Height="469.922" Width="720.313"
         WindowState="Maximized" WindowStyle="None">
     <Window.Resources>
-        <Style x:Key="myButtonStyle" TargetType="{x:Type Button}">
-            <Setter Property="Height" Value="30" />
-            <Setter Property="Width" Value="80" />
-            <Setter Property="Foreground" Value="Blue" />
-            <Setter Property="Background" Value="#fff" />
-            <Setter Property="Margin" Value="10" />
-            <Setter Property="FontSize" Value="12" />
-            <Setter Property="Effect">
-                <Setter.Value>
-                    <DropShadowEffect Color="Black" Direction="320" ShadowDepth="3" BlurRadius="5" Opacity="0.5" />
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="true">
-                    <Setter Property="Foreground" Value="Green" />
-                    <Setter Property="FontSize" Value="15" />
-                    <Setter Property="Background" Value="Crimson" />
-                </Trigger>
+        <ResourceDictionary>
+            <con:WidthConverter x:Key="WidthConverter" />
+        
+            <Style x:Key="myButtonStyle" TargetType="{x:Type Button}">
+                <Setter Property="Height" Value="30" />
+                <Setter Property="Width" Value="80" />
+                <Setter Property="Foreground" Value="Blue" />
+                <Setter Property="Background" Value="#fff" />
+                <Setter Property="Margin" Value="10" />
+                <Setter Property="FontSize" Value="12" />
+                <Setter Property="Effect">
+                    <Setter.Value>
+                        <DropShadowEffect Color="Black" Direction="320" ShadowDepth="3" BlurRadius="5" Opacity="0.5" />
+                    </Setter.Value>
+                </Setter>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="true">
+                        <Setter Property="Foreground" Value="Green" />
+                        <Setter Property="FontSize" Value="15" />
+                        <Setter Property="Background" Value="Crimson" />
+                    </Trigger>
 
-            </Style.Triggers>
-        </Style>
+                </Style.Triggers>
+            </Style>
 
+            <!-- Left menu Button Style -->
+            <Style x:Key="leftMenuButton" TargetType="{x:Type Button}">
+                <Setter Property="Background" Value="#fff" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                <Setter Property="Padding" Value="10, 10" />
+                <Setter Property="Margin" Value="0, 2" />
+                <Setter Property="BorderBrush" Value="#eee" />
+                <Setter Property="BorderThickness" Value="1" />
+                <Setter Property="Foreground" Value="#333" />
+                <Setter Property="Height" Value="50" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="FontWeight" Value="DemiBold" />
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="true">
+                        <Setter Property="Foreground" Value="Black" />
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <!-- Food Item -->
+            <Style x:Key="foodItemText" TargetType="{x:Type TextBlock}">
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+            
+            <Style x:Key="foodItemButton" TargetType="{x:Type Button}">
+                <Setter Property="Background" Value="#80b95a" />
+                <Setter Property="Foreground" Value="#fff" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="FontWeight" Value="SemiBold" />
+            </Style>
+
+            <Style x:Key="foodItemIncrementialElement" TargetType="{x:Type TextBlock}">
+                <Setter Property="FontSize" Value="20" />
+                <Setter Property="FontWeight" Value="Black" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+                <Setter Property="HorizontalAlignment" Value="Center" />
+            </Style>
+        </ResourceDictionary>
     </Window.Resources>
 
-    <Grid Margin="-2,0,1.6,0.2">
 
-        <DockPanel x:Name="dockPanel" HorizontalAlignment="Left" LastChildFill="False" Width="243"  Background="#FFF50057" VerticalAlignment="Top" Height="{Binding ActualHeight, ElementName=window, Mode=OneWay}">
+    <!-- Left Menu Body -->
+    <DockPanel>
+        <DockPanel DockPanel.Dock="Top" Height="68" LastChildFill="False" VerticalAlignment="Top" Background="#f6f9fc">
             <DockPanel.BitmapEffect>
-                <DropShadowBitmapEffect Color="Black" Direction="100" ShadowDepth="2" Opacity="0.7" Softness="10" />
+                <DropShadowBitmapEffect Color="Black" Direction="1" ShadowDepth="0" Opacity="0.1" Softness="15" />
             </DockPanel.BitmapEffect>
-            <TextBlock Height="44" TextWrapping="Wrap" Text="Меню" VerticalAlignment="Top" FontSize="34" FontWeight="Bold" DockPanel.Dock="Top" UseLayoutRounding="False" Foreground="#FFFCE4EC" TextAlignment="Center" Margin="0,80,0,0" RenderTransformOrigin="0.497,1.25"  />
+            <WrapPanel DockPanel.Dock="Left">
+                <Image Height="58" VerticalAlignment="Top" Width="67" Source="Resources/logo.png" Margin="20,5,0,0" />
+                <TextBlock Height="68" TextWrapping="Wrap" Text="SmartSchool" Width="155" VerticalAlignment="Top" Margin="12,0,0,0" FontSize="24" TextAlignment="Center" FontFamily="Segoe UI Historic" Foreground="#3d92e1" Padding="0,19,0,0" FontWeight="Bold" />
+            </WrapPanel>
+            <Button VerticalAlignment="Center" DockPanel.Dock="Right" Height="38" Width="170" Background="#f99626"  Margin="70, 0" Click="Button_Click_3">
+                <Button.Effect>
+                    <DropShadowEffect Color="Black" Direction="250" ShadowDepth="3" BlurRadius="7" Opacity="0.1" />
+                </Button.Effect>
+                <Button.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="CornerRadius" Value="5" />
+                    </Style>
+                </Button.Resources>
+                <WrapPanel Width="250" >
+                    <Image Height="25" Width="25"  Margin="7,5" Source="Resources/shopping-cart.png"/>
+                    <TextBlock TextWrapping="Wrap" Text="Корзина" VerticalAlignment="Top" Foreground="White" FontSize="24"/>
+                    <Border Background="#fff" Width="25" Height="27" VerticalAlignment="Center" CornerRadius="4" Margin="7,0,0,0">
+                        <TextBlock x:Name="orderElement" Text="{Binding OrderAmount}" VerticalAlignment="Center" FontSize="16" HorizontalAlignment="Center" FontWeight="SemiBold"/>
+                    </Border>
+                </WrapPanel>
+            </Button>
         </DockPanel>
 
-        <DockPanel Height="68" LastChildFill="False" VerticalAlignment="Top" Background="#FFF50057">
-            <DockPanel.BitmapEffect>
-                <DropShadowBitmapEffect Color="Black" Direction="5" ShadowDepth="2" Opacity="0.7" Softness="10" />
-            </DockPanel.BitmapEffect>
-            <Image Height="68" VerticalAlignment="Top" Width="67" Source="pack://siteoforigin:,,,/Resources/logo.png" RenderTransformOrigin="1.25,0.512"/>
-        </DockPanel>
+        <!-- Menu Buttons -->
+        <StackPanel DockPanel.Dock="Left" Background="#f6f9fc" Width="243" Height="{Binding ActualHeight, ElementName=window, Mode=OneWay}">
+            <Border Padding="0, 45, 0, 0">
+                <ItemsControl Name="icLeftMenu">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Button Style="{StaticResource leftMenuButton}" Tag="{Binding Id}" Click="Button_Click_1">
+                                <WrapPanel>
+                                    <Image Source="{Binding Photo}" />
+                                    <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Padding="15, 0" />
+                                </WrapPanel>
+                            </Button>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </Border>
+        </StackPanel>
+        
+        <!-- Content Center -->
+        <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" PanningMode="Both">
+            <WrapPanel Margin="35, 35">
+                <ItemsControl Name="icMainItemsMenu">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Width="{Binding Width, ElementName=window, Mode=OneWay, Converter={StaticResource WidthConverter}}"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Width="250" BorderBrush="#efefef" BorderThickness="2" CornerRadius="4" Padding="20, 20" Margin="20, 20" VerticalAlignment="Top">
+                                <StackPanel>
+                                    <Image Source="{Binding Photo}" Height="200" Width="200"/>
+                                    <TextBlock Style="{StaticResource foodItemText}" Text="{Binding Name}" HorizontalAlignment="Center" />
+                                    <TextBlock Style="{StaticResource foodItemText}" Text="{Binding Price, StringFormat='Цена: {0} тг.'}" HorizontalAlignment="Center" />
+                                    <DockPanel Margin="0, 10, 0, 0">
+                                        <Border DockPanel.Dock="Left" Width="70" Height="35" BorderBrush="#f99626" BorderThickness="2" CornerRadius="4" Margin="0, 0, 15, 0">
+                                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                                <TextBlock Style="{StaticResource foodItemIncrementialElement}" Text="-" Margin="0, 0, 10, 0" Tag="{Binding Id}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
+                                                <TextBlock Style="{StaticResource foodItemIncrementialElement}" Text="{Binding Quantity}" FontWeight="SemiBold"/>
+                                                <TextBlock Style="{StaticResource foodItemIncrementialElement}" Text="+" Margin="10, 0, 0, 0" Tag="{Binding Id}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown_1"/>
+                                            </StackPanel>
+                                        </Border>
+                                        <Button Style="{StaticResource foodItemButton}" Tag="{Binding Id}" DockPanel.Dock="Right" Content="Выбрать" Click="Button_Click_2">
+                                            <Button.Resources>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="CornerRadius" Value="5" />
+                                                </Style>
+                                            </Button.Resources>
+                                        </Button>
+                                    </DockPanel>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </WrapPanel>
+        </ScrollViewer>
+    </DockPanel>
 
-        <Button Style="{StaticResource myButtonStyle}" Content="Exit" Margin="609,385,24.6,25" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="Button_Click"/>
-        <Rectangle Fill="#FFD81B60" HorizontalAlignment="Right" Height="49" Margin="0,7,61,0" Stroke="#FFF9F9F9" VerticalAlignment="Top" Width="161" RadiusX="5" RadiusY="7"/>
-        <TextBlock HorizontalAlignment="Right" Margin="0,15,80,0" TextWrapping="Wrap" Text="Корзина" VerticalAlignment="Top" Foreground="White" FontSize="24"/>
-        <Image HorizontalAlignment="Left" Height="25" Margin="502,20,0,0" VerticalAlignment="Top" Width="31" OverridesDefaultStyle="True"/>
-    </Grid>
 
 
 </Window>

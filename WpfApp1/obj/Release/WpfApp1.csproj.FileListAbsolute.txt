@@ -1,0 +1,8 @@
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Release\WpfApp1.csprojAssemblyReference.cache
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Release\MainWindow.g.cs
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Release\App.g.cs
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Release\GeneratedInternalTypeHelper.g.cs
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Release\WpfApp1_MarkupCompile.cache
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Release\WpfApp1_MarkupCompile.lref
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Release\WpfApp1.exe
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\WpfApp1\obj\Release\WpfApp1.pdb
