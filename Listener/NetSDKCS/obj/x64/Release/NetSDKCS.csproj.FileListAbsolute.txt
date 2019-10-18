@@ -1,0 +1,4 @@
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\NetSDKCS\bin\x64\Release\NetSDKCS.dll
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\NetSDKCS\bin\x64\Release\NetSDKCS.pdb
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\NetSDKCS\obj\x64\Release\NetSDKCS.dll
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\NetSDKCS\obj\x64\Release\NetSDKCS.pdb

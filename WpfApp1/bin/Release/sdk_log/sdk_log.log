@@ -1,0 +1,288 @@
+Begin Time:2019-10-17 07:51:47.980
+[2019-10-17 07:51:47.980][P:15324/T:3324][HttpClient.cpp:323][Info][0] Load curl dynamically
+[2019-10-17 07:51:47.980][P:15324/T:3324][HttpClient.cpp:352][Info][0] curl module handle: 0000000000000000
+
+[2019-10-17 07:51:48.014][P:15324/T:3324][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-10-17 07:51:48.015][P:15324/T:3324][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:51:48.015][P:15324/T:3324][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:51:48.015][P:15324/T:3324][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:51:48.015][P:15324/T:3324][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:51:48.027][P:15324/T:3324][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=0000019E2A9658BC, dwUser=0000000000000000].
+[2019-10-17 07:51:48.027][P:15324/T:3324][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:51:48.048][P:15324/T:3324][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=0000002BF80FB988.]
+[2019-10-17 07:51:48.284][P:15324/T:3324][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1320647728.]
+[2019-10-17 07:51:48.285][P:15324/T:3324][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1320647728.]
+[2019-10-17 07:51:48.286][P:15324/T:3324][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:52:04.300][P:15324/T:29576][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1320647728.]
+[2019-10-17 07:52:04.300][P:15324/T:29576][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:52:12.927][P:15324/T:3324][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1320647728.]
+[2019-10-17 07:52:12.927][P:15324/T:3324][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:52:20.038][P:15324/T:7672][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1320647728.]
+[2019-10-17 07:52:20.038][P:15324/T:7672][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:52:20.038][P:15324/T:7672][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1320647728.]
+[2019-10-17 07:52:20.038][P:15324/T:7672][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:52:20.038][P:15324/T:7672][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=1320647728.]
+[2019-10-17 07:52:20.038][P:15324/T:7672][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:52:20.038][P:15324/T:7672][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-10-17 07:52:20.914][P:15324/T:3324][dhnetsdk.cpp:215][Info][0] Enter CLIENT_SetDVRMessCallBackEx1: [cbMessage=0000019E2A9676CC, dwUser=0000000000000000].
+[2019-10-17 07:52:20.914][P:15324/T:3324][dhnetsdk.cpp:217][Info][0] Leave CLIENT_SetDVRMessCallBackEx1.
+[2019-10-17 07:52:20.914][P:15324/T:3324][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=0000019E2A9672BC, dwUser=0000000000000000].
+[2019-10-17 07:52:20.914][P:15324/T:3324][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:52:20.914][P:15324/T:3324][dhnetsdk.cpp:86][Info][0] Enter CLIENT_InitEx:[cbDisConnect=0000019E2A96703C, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-10-17 07:52:20.914][P:15324/T:3324][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:52:20.914][P:15324/T:3324][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:52:20.914][P:15324/T:3324][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:52:20.914][P:15324/T:3324][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:52:20.914][P:15324/T:3324][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=0000019E2A966D1C, dwUser=0000000000000000].
+[2019-10-17 07:52:20.914][P:15324/T:3324][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:52:20.926][P:15324/T:3324][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=0000002BF80FB988.]
+[2019-10-17 07:52:21.128][P:15324/T:3324][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1320805168.]
+[2019-10-17 07:52:21.128][P:15324/T:3324][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1320805168.]
+[2019-10-17 07:52:21.129][P:15324/T:3324][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:52:25.136][P:15324/T:8680][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1320805168.]
+[2019-10-17 07:52:25.136][P:15324/T:8680][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+Begin Time:2019-10-17 07:54:11.410
+[2019-10-17 07:54:11.410][P:25576/T:26252][HttpClient.cpp:323][Info][0] Load curl dynamically
+[2019-10-17 07:54:11.410][P:25576/T:26252][HttpClient.cpp:352][Info][0] curl module handle: 0000000000000000
+
+[2019-10-17 07:54:11.439][P:25576/T:26252][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-10-17 07:54:11.440][P:25576/T:26252][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:54:11.440][P:25576/T:26252][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:54:11.440][P:25576/T:26252][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:54:11.440][P:25576/T:26252][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:54:11.452][P:25576/T:26252][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=00000256A728529C, dwUser=0000000000000000].
+[2019-10-17 07:54:11.452][P:25576/T:26252][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:54:11.472][P:25576/T:26252][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=0000006145EFB728.]
+[2019-10-17 07:54:11.714][P:25576/T:26252][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=-1204530768.]
+[2019-10-17 07:54:11.715][P:25576/T:26252][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=-1204530768.]
+[2019-10-17 07:54:11.716][P:25576/T:26252][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:54:13.719][P:25576/T:26844][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=-1204530768.]
+[2019-10-17 07:54:13.720][P:25576/T:26844][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:54:32.589][P:25576/T:26252][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=-1204530768.]
+[2019-10-17 07:54:32.589][P:25576/T:26252][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:54:35.597][P:25576/T:26252][dhnetsdk.cpp:215][Info][0] Enter CLIENT_SetDVRMessCallBackEx1: [cbMessage=00000256A7284FCC, dwUser=0000000000000000].
+[2019-10-17 07:54:35.597][P:25576/T:26252][dhnetsdk.cpp:217][Info][0] Leave CLIENT_SetDVRMessCallBackEx1.
+[2019-10-17 07:54:35.597][P:25576/T:26252][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=00000256A72851FC, dwUser=0000000000000000].
+[2019-10-17 07:54:35.597][P:25576/T:26252][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:54:35.597][P:25576/T:26252][dhnetsdk.cpp:86][Info][0] Enter CLIENT_InitEx:[cbDisConnect=00000256A728533C, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-10-17 07:54:35.597][P:25576/T:26252][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:54:35.597][P:25576/T:26252][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:54:35.597][P:25576/T:26252][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:54:35.597][P:25576/T:26252][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:54:35.597][P:25576/T:26252][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=00000256A72857EC, dwUser=0000000000000000].
+[2019-10-17 07:54:35.598][P:25576/T:26252][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:54:35.610][P:25576/T:26252][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=0000006145EFB728.]
+[2019-10-17 07:54:35.829][P:25576/T:26252][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=-1204405248.]
+[2019-10-17 07:54:35.829][P:25576/T:26252][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=-1204405248.]
+[2019-10-17 07:54:35.829][P:25576/T:26252][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:54:37.832][P:25576/T:30608][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=-1204405248.]
+[2019-10-17 07:54:37.832][P:25576/T:30608][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:54:39.987][P:25576/T:26252][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=-1204405248.]
+[2019-10-17 07:54:39.987][P:25576/T:26252][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:54:49.038][P:25576/T:13576][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=-1204530768.]
+[2019-10-17 07:54:49.038][P:25576/T:13576][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:54:49.038][P:25576/T:13576][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=-1204530768.]
+[2019-10-17 07:54:49.038][P:25576/T:13576][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:54:49.038][P:25576/T:13576][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=-1204530768.]
+[2019-10-17 07:54:49.039][P:25576/T:13576][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:54:49.039][P:25576/T:13576][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-10-17 07:54:49.039][P:25576/T:13576][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=-1204405248.]
+[2019-10-17 07:54:49.039][P:25576/T:13576][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:54:49.039][P:25576/T:13576][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=-1204405248.]
+[2019-10-17 07:54:49.039][P:25576/T:13576][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:54:49.039][P:25576/T:13576][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=-1204405248.]
+[2019-10-17 07:54:49.039][P:25576/T:13576][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:54:49.039][P:25576/T:13576][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+Begin Time:2019-10-17 07:57:06.445
+[2019-10-17 07:57:06.445][P:29740/T:30320][HttpClient.cpp:323][Info][0] Load curl dynamically
+[2019-10-17 07:57:06.445][P:29740/T:30320][HttpClient.cpp:352][Info][0] curl module handle: 0000000000000000
+
+[2019-10-17 07:57:06.482][P:29740/T:30320][Utils.cpp:4792][Info][0] mutil NIC client
+[2019-10-17 07:57:06.483][P:29740/T:30320][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:57:06.483][P:29740/T:30320][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:57:06.483][P:29740/T:30320][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:57:06.483][P:29740/T:30320][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:57:06.494][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC65C9C, dwUser=0000000000000000].
+[2019-10-17 07:57:06.494][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:57:06.516][P:29740/T:30320][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000012996B648.]
+[2019-10-17 07:57:06.746][P:29740/T:30320][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1207258752.]
+[2019-10-17 07:57:06.747][P:29740/T:30320][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1207258752.]
+[2019-10-17 07:57:06.748][P:29740/T:30320][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:57:09.754][P:29740/T:28704][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207258752.]
+[2019-10-17 07:57:09.754][P:29740/T:28704][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:57:22.748][P:29740/T:30320][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207258752.]
+[2019-10-17 07:57:22.748][P:29740/T:30320][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:57:26.281][P:29740/T:30320][dhnetsdk.cpp:215][Info][0] Enter CLIENT_SetDVRMessCallBackEx1: [cbMessage=000001461EC651AC, dwUser=0000000000000000].
+[2019-10-17 07:57:26.281][P:29740/T:30320][dhnetsdk.cpp:217][Info][0] Leave CLIENT_SetDVRMessCallBackEx1.
+[2019-10-17 07:57:26.281][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC6579C, dwUser=0000000000000000].
+[2019-10-17 07:57:26.281][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:57:26.281][P:29740/T:30320][dhnetsdk.cpp:86][Info][0] Enter CLIENT_InitEx:[cbDisConnect=000001461EC651FC, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-10-17 07:57:26.281][P:29740/T:30320][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:57:26.281][P:29740/T:30320][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:57:26.281][P:29740/T:30320][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:57:26.281][P:29740/T:30320][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:57:26.281][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC6524C, dwUser=0000000000000000].
+[2019-10-17 07:57:26.281][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:57:26.296][P:29740/T:30320][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000012996B648.]
+[2019-10-17 07:57:26.544][P:29740/T:30320][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1274407056.]
+[2019-10-17 07:57:26.544][P:29740/T:30320][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1274407056.]
+[2019-10-17 07:57:26.547][P:29740/T:30320][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:57:37.554][P:29740/T:28932][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1274407056.]
+[2019-10-17 07:57:37.554][P:29740/T:28932][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:57:41.153][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207258752.]
+[2019-10-17 07:57:41.153][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:57:41.153][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207258752.]
+[2019-10-17 07:57:41.153][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:57:41.153][P:29740/T:25464][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=1207258752.]
+[2019-10-17 07:57:41.153][P:29740/T:25464][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:57:41.154][P:29740/T:25464][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-10-17 07:57:44.395][P:29740/T:30320][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1274407056.]
+[2019-10-17 07:57:44.395][P:29740/T:30320][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:57:47.749][P:29740/T:30320][dhnetsdk.cpp:215][Info][0] Enter CLIENT_SetDVRMessCallBackEx1: [cbMessage=000001461EC6510C, dwUser=0000000000000000].
+[2019-10-17 07:57:47.749][P:29740/T:30320][dhnetsdk.cpp:217][Info][0] Leave CLIENT_SetDVRMessCallBackEx1.
+[2019-10-17 07:57:47.749][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC6538C, dwUser=0000000000000000].
+[2019-10-17 07:57:47.749][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:57:47.749][P:29740/T:30320][dhnetsdk.cpp:86][Info][0] Enter CLIENT_InitEx:[cbDisConnect=000001461EC6592C, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-10-17 07:57:47.749][P:29740/T:30320][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:57:47.749][P:29740/T:30320][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:57:47.749][P:29740/T:30320][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:57:47.749][P:29740/T:30320][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:57:47.749][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC6565C, dwUser=0000000000000000].
+[2019-10-17 07:57:47.749][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:57:47.762][P:29740/T:30320][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000012996B648.]
+[2019-10-17 07:57:47.997][P:29740/T:30320][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1207256528.]
+[2019-10-17 07:57:47.997][P:29740/T:30320][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1207256528.]
+[2019-10-17 07:57:47.998][P:29740/T:30320][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:57:50.002][P:29740/T:30508][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207256528.]
+[2019-10-17 07:57:50.002][P:29740/T:30508][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:57:59.037][P:29740/T:30320][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207256528.]
+[2019-10-17 07:57:59.037][P:29740/T:30320][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:01.285][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207256528.]
+[2019-10-17 07:58:01.285][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:01.285][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207256528.]
+[2019-10-17 07:58:01.285][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:01.285][P:29740/T:25464][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=1207256528.]
+[2019-10-17 07:58:01.285][P:29740/T:25464][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:58:01.285][P:29740/T:25464][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-10-17 07:58:01.598][P:29740/T:30320][dhnetsdk.cpp:215][Info][0] Enter CLIENT_SetDVRMessCallBackEx1: [cbMessage=000001461EC6547C, dwUser=0000000000000000].
+[2019-10-17 07:58:01.598][P:29740/T:30320][dhnetsdk.cpp:217][Info][0] Leave CLIENT_SetDVRMessCallBackEx1.
+[2019-10-17 07:58:01.598][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC654CC, dwUser=0000000000000000].
+[2019-10-17 07:58:01.598][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:58:01.598][P:29740/T:30320][dhnetsdk.cpp:86][Info][0] Enter CLIENT_InitEx:[cbDisConnect=000001461EC659CC, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-10-17 07:58:01.598][P:29740/T:30320][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:58:01.598][P:29740/T:30320][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:58:01.598][P:29740/T:30320][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:58:01.598][P:29740/T:30320][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:58:01.598][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC652EC, dwUser=0000000000000000].
+[2019-10-17 07:58:01.598][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:58:01.609][P:29740/T:30320][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000012996B648.]
+[2019-10-17 07:58:01.842][P:29740/T:30320][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1207256528.]
+[2019-10-17 07:58:01.842][P:29740/T:30320][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1207256528.]
+[2019-10-17 07:58:01.842][P:29740/T:30320][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:58:04.846][P:29740/T:25832][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207256528.]
+[2019-10-17 07:58:04.846][P:29740/T:25832][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:58:07.337][P:29740/T:30320][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207256528.]
+[2019-10-17 07:58:07.337][P:29740/T:30320][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:09.276][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207256528.]
+[2019-10-17 07:58:09.276][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:09.276][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207256528.]
+[2019-10-17 07:58:09.276][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:09.276][P:29740/T:25464][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=1207256528.]
+[2019-10-17 07:58:09.276][P:29740/T:25464][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:58:09.276][P:29740/T:25464][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-10-17 07:58:10.473][P:29740/T:30320][dhnetsdk.cpp:215][Info][0] Enter CLIENT_SetDVRMessCallBackEx1: [cbMessage=000001461EC6551C, dwUser=0000000000000000].
+[2019-10-17 07:58:10.473][P:29740/T:30320][dhnetsdk.cpp:217][Info][0] Leave CLIENT_SetDVRMessCallBackEx1.
+[2019-10-17 07:58:10.473][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC656AC, dwUser=0000000000000000].
+[2019-10-17 07:58:10.473][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:58:10.473][P:29740/T:30320][dhnetsdk.cpp:86][Info][0] Enter CLIENT_InitEx:[cbDisConnect=000001461EC64F2C, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-10-17 07:58:10.473][P:29740/T:30320][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:58:10.474][P:29740/T:30320][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:58:10.474][P:29740/T:30320][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:58:10.474][P:29740/T:30320][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:58:10.474][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC656FC, dwUser=0000000000000000].
+[2019-10-17 07:58:10.474][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:58:10.487][P:29740/T:30320][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000012996B648.]
+[2019-10-17 07:58:10.699][P:29740/T:30320][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1207190976.]
+[2019-10-17 07:58:10.699][P:29740/T:30320][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1207190976.]
+[2019-10-17 07:58:10.701][P:29740/T:30320][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:58:21.707][P:29740/T:28800][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207190976.]
+[2019-10-17 07:58:21.707][P:29740/T:28800][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:58:23.536][P:29740/T:30320][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207190976.]
+[2019-10-17 07:58:23.536][P:29740/T:30320][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:25.021][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207190976.]
+[2019-10-17 07:58:25.021][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:25.021][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207190976.]
+[2019-10-17 07:58:25.021][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:25.021][P:29740/T:25464][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=1207190976.]
+[2019-10-17 07:58:25.021][P:29740/T:25464][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:58:25.021][P:29740/T:25464][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-10-17 07:58:28.701][P:29740/T:30320][dhnetsdk.cpp:215][Info][0] Enter CLIENT_SetDVRMessCallBackEx1: [cbMessage=000001461EC65CEC, dwUser=0000000000000000].
+[2019-10-17 07:58:28.701][P:29740/T:30320][dhnetsdk.cpp:217][Info][0] Leave CLIENT_SetDVRMessCallBackEx1.
+[2019-10-17 07:58:28.701][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC65B5C, dwUser=0000000000000000].
+[2019-10-17 07:58:28.701][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:58:28.701][P:29740/T:30320][dhnetsdk.cpp:86][Info][0] Enter CLIENT_InitEx:[cbDisConnect=000001461EC65BAC, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-10-17 07:58:28.701][P:29740/T:30320][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:58:28.701][P:29740/T:30320][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:58:28.701][P:29740/T:30320][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:58:28.701][P:29740/T:30320][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:58:28.701][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC65BFC, dwUser=0000000000000000].
+[2019-10-17 07:58:28.701][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:58:28.713][P:29740/T:30320][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000012996B648.]
+[2019-10-17 07:58:28.919][P:29740/T:30320][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1207190976.]
+[2019-10-17 07:58:28.919][P:29740/T:30320][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1207190976.]
+[2019-10-17 07:58:28.921][P:29740/T:30320][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:58:31.922][P:29740/T:19636][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207190976.]
+[2019-10-17 07:58:31.922][P:29740/T:19636][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:58:34.247][P:29740/T:30320][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207190976.]
+[2019-10-17 07:58:34.247][P:29740/T:30320][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:35.248][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207190976.]
+[2019-10-17 07:58:35.248][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:35.248][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1207190976.]
+[2019-10-17 07:58:35.248][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:58:35.248][P:29740/T:25464][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=1207190976.]
+[2019-10-17 07:58:35.248][P:29740/T:25464][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:58:35.249][P:29740/T:25464][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-10-17 07:58:37.905][P:29740/T:30320][dhnetsdk.cpp:215][Info][0] Enter CLIENT_SetDVRMessCallBackEx1: [cbMessage=000001461EC656FC, dwUser=0000000000000000].
+[2019-10-17 07:58:37.905][P:29740/T:30320][dhnetsdk.cpp:217][Info][0] Leave CLIENT_SetDVRMessCallBackEx1.
+[2019-10-17 07:58:37.905][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC64DEC, dwUser=0000000000000000].
+[2019-10-17 07:58:37.905][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:58:37.905][P:29740/T:30320][dhnetsdk.cpp:86][Info][0] Enter CLIENT_InitEx:[cbDisConnect=000001461EC64E3C, dwUser=0000000000000000, lpInitParam=0000000000000000].
+[2019-10-17 07:58:37.905][P:29740/T:30320][AVNetSDKMgr.cpp:350][Info][0] Load avnetsdk library dynamically
+[2019-10-17 07:58:37.905][P:29740/T:30320][AVNetSDKMgr.cpp:374][Info][0] avnetsdk module handle: 0000000000000000
+
+[2019-10-17 07:58:37.905][P:29740/T:30320][AVNetSDKMgr.cpp:624][Info][0] Load configsdk dynamically
+[2019-10-17 07:58:37.905][P:29740/T:30320][dhnetsdk.cpp:109][Info][0] Leave CLIENT_InitEx.
+[2019-10-17 07:58:37.905][P:29740/T:30320][dhnetsdk.cpp:140][Info][0] Enter CLIENT_SetAutoReconnect:[cbAutoConnect=000001461EC64F2C, dwUser=0000000000000000].
+[2019-10-17 07:58:37.905][P:29740/T:30320][dhnetsdk.cpp:142][Info][0] Leave CLIENT_SetAutoReconnect.
+[2019-10-17 07:58:37.919][P:29740/T:30320][dhnetsdk.cpp:404][Info][0] Enter CLIENT_LoginEx2. [IP=192.168.1.108, port=37777, SpeCap=0, lpDeviceInfo=000000012996B648.]
+[2019-10-17 07:58:38.107][P:29740/T:30320][dhnetsdk.cpp:440][Info][0] Leave CLIENT_LoginEx2. [error=0, login ID=1274521040.]
+[2019-10-17 07:58:38.107][P:29740/T:30320][dhnetsdk.cpp:3370][Info][0] Enter CLIENT_StartListenEx. [lLoginID=1274521040.]
+[2019-10-17 07:58:38.107][P:29740/T:30320][dhnetsdk.cpp:3391][Info][0] Leave CLIENT_StartListenEx.[ret=1.]
+[2019-10-17 07:58:47.113][P:29740/T:972][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1274521040.]
+[2019-10-17 07:58:47.113][P:29740/T:972][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=1.]
+[2019-10-17 07:58:51.093][P:29740/T:30320][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1274521040.]
+[2019-10-17 07:58:51.093][P:29740/T:30320][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:59:57.401][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1274521040.]
+[2019-10-17 07:59:57.401][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:59:57.401][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1274521040.]
+[2019-10-17 07:59:57.401][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:59:57.401][P:29740/T:25464][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=1274521040.]
+[2019-10-17 07:59:57.401][P:29740/T:25464][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:59:57.401][P:29740/T:25464][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]
+[2019-10-17 07:59:57.402][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1274407056.]
+[2019-10-17 07:59:57.402][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:59:57.402][P:29740/T:25464][dhnetsdk.cpp:3405][Info][0] Enter CLIENT_StopListen. [lLoginID=1274407056.]
+[2019-10-17 07:59:57.402][P:29740/T:25464][dhnetsdk.cpp:3426][Info][0] Leave CLIENT_StopListen.[ret=0.]
+[2019-10-17 07:59:57.402][P:29740/T:25464][dhnetsdk.cpp:635][Info][0] Enter CLIENT_Logout. [lLoginID=1274407056.]
+[2019-10-17 07:59:57.402][P:29740/T:25464][TPTCPClient.cpp:695][Error][90010007] Device is not online, ip:192.168.1.108
+[2019-10-17 07:59:57.402][P:29740/T:25464][dhnetsdk.cpp:657][Info][0] Leave CLIENT_Logout. [ret=1]

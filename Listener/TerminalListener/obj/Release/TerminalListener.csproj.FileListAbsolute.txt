@@ -1,0 +1,13 @@
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\TerminalListener.exe.config
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\TerminalListener.exe
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\TerminalListener.pdb
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\Google.Protobuf.dll
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\MySql.Data.dll
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\NetSDKCS.dll
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\NetSDKCS.pdb
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\Google.Protobuf.xml
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\bin\Release\MySql.Data.xml
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\obj\Release\TerminalListener.csprojAssemblyReference.cache
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\obj\Release\TerminalListener.csproj.CopyComplete
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\obj\Release\TerminalListener.exe
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\TerminalListener\obj\Release\TerminalListener.pdb

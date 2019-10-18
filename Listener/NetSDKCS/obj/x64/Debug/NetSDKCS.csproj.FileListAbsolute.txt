@@ -1,0 +1,25 @@
+D:\works\C#demo\FaceAttendance\NetSDKCS\bin\x64\Debug\NetSDKCS.dll
+D:\works\C#demo\FaceAttendance\NetSDKCS\bin\x64\Debug\NetSDKCS.pdb
+D:\works\C#demo\FaceAttendance\NetSDKCS\obj\x64\Debug\NetSDKCS.csprojResolveAssemblyReference.cache
+D:\works\C#demo\FaceAttendance\NetSDKCS\obj\x64\Debug\NetSDKCS.csproj.CoreCompileInputs.cache
+D:\works\C#demo\FaceAttendance\NetSDKCS\obj\x64\Debug\NetSDKCS.dll
+D:\works\C#demo\FaceAttendance\NetSDKCS\obj\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\FaceAttendance SDK Demo\FaceAttendance\NetSDKCS\bin\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\FaceAttendance SDK Demo\FaceAttendance\NetSDKCS\bin\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\FaceAttendance SDK Demo\FaceAttendance\NetSDKCS\obj\x64\Debug\NetSDKCS.csprojResolveAssemblyReference.cache
+D:\Dev projects\CSh\FaceAttendance SDK Demo\FaceAttendance\NetSDKCS\obj\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\FaceAttendance SDK Demo\FaceAttendance\NetSDKCS\obj\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\TerminalListener\NetSDKCS\bin\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\TerminalListener\NetSDKCS\bin\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\TerminalListener\NetSDKCS\obj\x64\Debug\NetSDKCS.csprojResolveAssemblyReference.cache
+D:\Dev projects\CSh\TerminalListener\NetSDKCS\obj\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\TerminalListener\NetSDKCS\obj\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\TerminalListener\Listener\NetSDKCS\bin\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\TerminalListener\Listener\NetSDKCS\bin\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\TerminalListener\Listener\NetSDKCS\obj\x64\Debug\NetSDKCS.csprojAssemblyReference.cache
+D:\Dev projects\CSh\TerminalListener\Listener\NetSDKCS\obj\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\TerminalListener\Listener\NetSDKCS\obj\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\NetSDKCS\bin\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\NetSDKCS\bin\x64\Debug\NetSDKCS.pdb
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\NetSDKCS\obj\x64\Debug\NetSDKCS.dll
+D:\Dev projects\CSh\DinningRoom\smart_dinning_room\Listener\NetSDKCS\obj\x64\Debug\NetSDKCS.pdb

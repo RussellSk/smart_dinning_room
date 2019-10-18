@@ -30,7 +30,7 @@
             </Style>
             
             <Style x:Key="infoTextElement" TargetType="{x:Type TextBlock}">
-                <Setter Property="FontSize" Value="18" />
+                <Setter Property="FontSize" Value="21" />
                 <Setter Property="HorizontalAlignment" Value="Center" />
                 <Setter Property="FontWeight" Value="SemiBold" />
             </Style>
@@ -54,10 +54,11 @@
                     <Button DockPanel.Dock="Right" Style="{StaticResource CloseButton}" Content="Закрыть X" HorizontalAlignment="Right" Click="Button_Click"/>
                 </DockPanel>
             </Border>
-            <Image Width="200" Height="200" Source="Resources/verification.png" Margin="0, 20"/>
-            <TextBlock Style="{StaticResource infoTextElement}" Text="Запрос передан на обработку..." />
-            <TextBlock Style="{StaticResource infoTextElement}" Text="Пожалуйста авторизуйтесь" />
+            <Image Width="150" Height="150" Source="/Resources/verification.png" Margin="0, 20"/>
+            <TextBlock x:Name="AuthorizationText" Style="{StaticResource infoTextElement}" Text="Пожалуйста авторизуйтесь" />
+            <TextBlock x:Name="OrderIdText" Style="{StaticResource infoTextElement}" TextWrapping="Wrap"/>
+            <TextBlock x:Name="PersonNameText" Style="{StaticResource infoTextElement}" />
+            <TextBlock x:Name="TakeChequeText" Style="{StaticResource infoTextElement}" Text="Не забудьте взять чек." />
         </StackPanel>
-        <Button DockPanel.Dock="Bottom" Style="{StaticResource printChequeButton}" Content="РАСПЕЧАТАТЬ ЧЕК" Click="Button_Click_1"/>
     </DockPanel>
 </Window>

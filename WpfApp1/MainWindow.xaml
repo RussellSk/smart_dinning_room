@@ -65,6 +65,7 @@
                 <Setter Property="Foreground" Value="#fff" />
                 <Setter Property="FontSize" Value="16" />
                 <Setter Property="FontWeight" Value="SemiBold" />
+                <Setter Property="Height" Value="37" />
             </Style>
 
             <Style x:Key="foodItemIncrementialElement" TargetType="{x:Type TextBlock}">
@@ -138,16 +139,16 @@
                             <Border Width="250" BorderBrush="#efefef" BorderThickness="2" CornerRadius="4" Padding="20, 20" Margin="20, 20" VerticalAlignment="Top">
                                 <StackPanel>
                                     <Image Source="{Binding Photo}" Height="200" Width="200"/>
-                                    <TextBlock Style="{StaticResource foodItemText}" Text="{Binding Name}" HorizontalAlignment="Center" />
+                                    <TextBlock Style="{StaticResource foodItemText}" Text="{Binding Name}" HorizontalAlignment="Center" TextWrapping="Wrap"/>
                                     <TextBlock Style="{StaticResource foodItemText}" Text="{Binding Price, StringFormat='Цена: {0} тг.'}" HorizontalAlignment="Center" />
                                     <DockPanel Margin="0, 10, 0, 0">
-                                        <Border DockPanel.Dock="Left" Width="70" Height="35" BorderBrush="#f99626" BorderThickness="2" CornerRadius="4" Margin="0, 0, 15, 0">
+                                        <!--<Border DockPanel.Dock="Left" Width="70" Height="35" BorderBrush="#f99626" BorderThickness="2" CornerRadius="4" Margin="0, 0, 15, 0">
                                             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                                                 <TextBlock Style="{StaticResource foodItemIncrementialElement}" Text="-" Margin="0, 0, 10, 0" Tag="{Binding Id}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown"/>
                                                 <TextBlock Style="{StaticResource foodItemIncrementialElement}" Text="{Binding Quantity}" FontWeight="SemiBold"/>
                                                 <TextBlock Style="{StaticResource foodItemIncrementialElement}" Text="+" Margin="10, 0, 0, 0" Tag="{Binding Id}" MouseLeftButtonDown="TextBlock_MouseLeftButtonDown_1"/>
                                             </StackPanel>
-                                        </Border>
+                                        </Border>-->
                                         <Button Style="{StaticResource foodItemButton}" Tag="{Binding Id}" DockPanel.Dock="Right" Content="Выбрать" Click="Button_Click_2">
                                             <Button.Resources>
                                                 <Style TargetType="Border">

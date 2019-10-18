@@ -10,7 +10,7 @@ namespace WpfApp1.Entities
 {
     public class OrderItems : INotifyPropertyChanged
     {
-        public ObservableCollection<MenuItems> orders = new ObservableCollection<MenuItems>();
+        private ObservableCollection<MenuItems> orders = new ObservableCollection<MenuItems>();
         private int order_amount = 0;
 
         public OrderItems(ObservableCollection<MenuItems> orders)
@@ -19,6 +19,7 @@ namespace WpfApp1.Entities
         }
 
         public OrderItems() { }
+        public int UserId { get; set; }  
         public ObservableCollection<MenuItems> Orders
         {
             get
